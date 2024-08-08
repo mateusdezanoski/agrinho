@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Vendas de Tratores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sistema de Vendas de Tratores</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="tractor-list">
+            <!-- Os cartões dos tratores serão inseridos aqui dinamicamente -->
+        </div>
+    </div>
+
+    <!-- Modal para detalhes da compra -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times; <span>
+            <h2 id="modal-title">Detalhes do Trator</h2>
+            <div id="modal-body">
+                <!-- Detalhes do trator serão inseridos aqui dinamicamente -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
